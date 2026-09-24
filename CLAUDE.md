@@ -58,4 +58,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File install.ps1 [-Apply]
 - No real pushes from tests: they point `PHAROS_CONFIG` at a missing file.
 - **Recurring checks use `incident()`, never bare `send()` per run.** Re-paging the same red check
   every 30 min is the 2026-09-22 spam this exists to prevent.
+- **Public repo** `yaqzan/pharos` since 2026-09-24 (one fresh commit; full history in private
+  `yaqzan/pharos-archive` + `.retired/pharos-history-20260924.bundle`). Nothing personal in tracked files:
+  credentials only in gitignored `config.json`.
 - Folder was `C:\Development\Tocsin` until 2026-09-22 (renamed; `install.ps1` retires `tocsin.pth`).
