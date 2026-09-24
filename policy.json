@@ -1,0 +1,18 @@
+{
+  "_comment": "Shared by the Python and PowerShell bindings. Channel glyphs live HERE and only here: .ps1/.psm1 files must stay ASCII, and one table means the two languages cannot drift. Mutes only ever apply to channels marked mutable.",
+  "default_channel": "ops",
+  "channels": {
+    "ops":    { "glyph": "🛠", "mutable": false, "about": "health, watchdogs, heartbeats, failures, recoveries" },
+    "signal": { "glyph": "📈", "mutable": true,  "about": "Trader score threshold crossings and TP/SL exits" },
+    "trade":  { "glyph": "💼", "mutable": true,  "about": "Trader portfolio opens, closes, sprint alerts" }
+  },
+  "mutes": [
+    {
+      "source": "trader",
+      "channels": ["signal", "trade"],
+      "until": null,
+      "override_env": "TRADER_SIGNAL_PUSH",
+      "reason": "holdout embargo, nothing is tradeable before the 2026-12-15 OOS read"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+config.json
+logs/
+.retired/
+__pycache__/
+.pytest_cache/
+state/

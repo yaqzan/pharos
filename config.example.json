@@ -1,0 +1,9 @@
+{
+  "pushover": {
+    "user_key": "your Pushover user key (pushover.net, top of the dashboard)",
+    "app_token": "the token of your default app; anything without its own app uses this",
+    "apps": {
+      "myproject": "optional: a token per project, so its pushes wear that app's icon"
+    }
+  }
+}
