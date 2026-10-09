@@ -103,6 +103,7 @@ Defined in `policy.json`, shared by both languages.
 | `ops` | 🛠 | no | health, watchdogs, heartbeats, failures, recoveries |
 | `signal` | 📈 | yes | Trader score crossings, TP/SL exits |
 | `trade` | 💼 | yes | Trader portfolio opens, closes, sprint alerts |
+| `digest` | 📋 | yes | scheduled summaries and briefs (Harbinger's Game Pass radar) |
 
 An unknown channel falls back to `ops`. Adding a channel is one entry in
 `policy.json`; the parity test checks that both bindings still agree.
