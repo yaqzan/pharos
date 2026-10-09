@@ -39,6 +39,7 @@ SOURCES = {
     "gamenight": DEV / "GameNight/frontend/public/icons/icon-192.png",
     "fantasy": DEV / "Fantasy/frontend/public/favicon.svg",
     "wayfinder": DEV / "Wayfinder/templates/live/worker/app/icon.svg",
+    "harbinger": DEV / "Harbinger/web/icon-512.png",
 }
 
 # Artwork with a transparent background, set on a tile: source -> (file, tile colour).
