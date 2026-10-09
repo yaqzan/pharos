@@ -125,7 +125,7 @@ as claude-rc's "logged out") uses the **Pharos** app and its lighthouse icon.
 
 Registered 2026-09-23: arbiter (was curator), archivist, fantasy, gamenight,
 gleaner (was scribe), spice, spore, trader (the older "Trader Alerts" app),
-vesper, wayfinder.
+vesper, wayfinder. Added 2026-10-09: harbinger.
 
 Icons (128×128, Pushover's size) are in `icons/`: `py -3.11 icons\build_icons.py`
 renders each project's own icon (PNG, or SVG via headless Edge), and
