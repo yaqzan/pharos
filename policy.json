@@ -5,7 +5,7 @@
     "ops":    { "glyph": "🛠", "mutable": false, "about": "health, watchdogs, heartbeats, failures, recoveries" },
     "signal": { "glyph": "📈", "mutable": true,  "about": "Trader score threshold crossings and TP/SL exits" },
     "trade":  { "glyph": "💼", "mutable": true,  "about": "Trader portfolio opens, closes, sprint alerts" },
-    "digest": { "glyph": "📋", "mutable": true,  "about": "scheduled summaries and briefs (Harbinger's Game Pass radar)" }
+    "digest": { "glyph": "📋", "mutable": true,  "about": "scheduled summaries and briefs, Harbinger's newly confirmed Game Pass leavers" }
   },
   "mutes": [
     {
